@@ -13,8 +13,6 @@ This is a solution to the [IP address tracker challenge on Frontend Mentor](http
   - [What I learned](#what-i-learned)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -28,12 +26,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](image.png)
+![image](https://user-images.githubusercontent.com/87590123/187074532-47fc04d6-3235-4997-a48d-23995806440a.png)
+
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- GitHub URL: [](https://github.com/ashwin-acharya01/IP-Address-Tracker)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -63,7 +62,7 @@ Used LeafletJS for the first time and it was a lot of fun. Still have to learn a
 
 ## Author
 
-- Frontend Mentor - [@Ashwin Acharya](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Ashwin Acharya](https://www.frontendmentor.io/profile/ashwin-acharya01)
 - Twitter - [@Ashwin Acharya](https://www.twitter.com/yourusername)
 
 
