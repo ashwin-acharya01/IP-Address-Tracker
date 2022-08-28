@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+:root{
+    --VeryDarkGray: hsl(0, 0%, 17%);
+    --DarkGray: hsl(0, 0%, 59%);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+main{
+    padding: 2em 3em 2em;
+    background-image: url('images/pattern-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap:1em;
+}
+main h1{
+    color: white;
+}
+form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#ip-address{
+    width: 60%;
+    height: 4em;
+    border: none;
+    border-radius: 1em;
+    padding: 0.5em 0 0.5em 0.5em;  
+    cursor: pointer;
+}
+#submit{
+    width: 5%;
+    margin-left: -5%;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+    border: none;
+    height: 4em;
+    background-color: var(--VeryDarkGray);
+    color: white;
+    cursor: pointer;
+    transition: transform 0.4s;
+    transition-timing-function: ease-in-out;
+}
+#submit:hover{
+    transform: scale(1.1);
+}
+.ip-details{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 1em;
+    padding: 1em;
+    margin-top: 1em;
+    margin-bottom: -4em;
+    position:relative;
+    box-shadow: 0 1em 1em hsl(0, 0%, 59%);
+    z-index: 9999;
+}
+.section-elements{
+    width: 25%;
+    
+}
+.section-elements > span{
+    font-weight: 700;
+    font-size: 18px;
+    overflow-x: scroll;
+}
+.section-elements > h6{
+    color: var(--DarkGray);
+    margin-top: 0;
+    margin-bottom: 1em;
+    font-weight: 500;
+    
+}
+#map{
+    width: 100%;
+    height: 40em;
+    z-index: 10;
+}
+@media(max-width: 768px){
+    main{
+        padding-bottom: 1em;
+    }
+    #ip-address{
+        width: 100%;
+        font-size: 13px;
+    }
+    #submit{
+        width: 15%;
+        margin-left: -15%;
+    }
+    .ip-details{
+        flex-direction: column;
+        gap:1em;
+        text-align: center;
+        align-items: center;
+        margin-bottom: -4em;
+    }
+    .section-elements{
+        width: 100%;
+        overflow-x: scroll;
+    }
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | IP Address Tracker</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+      integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+      crossorigin=""
+    />
+    <script
+      src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+      integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+      crossorigin=""
+    ></script>
+  </head>
+  <body>
+    <main>
+      <h1>IP Address Tracker</h1>
+      <form>
+        <input type="text" id="ip-address" placeholder="Search for any IP address or domain"/>
+        <button type="button" id="submit"><img src="images/icon-arrow.svg" alt="Submit"/></button>
+      </form>
+
+      <section class="ip-details">
+        <div class="section-elements">
+          <h6>IP Address</h6>
+          <span id="ip">123.123.123.123</span>
+        </div>
+        <div class="section-elements">
+          <h6>Location</h6>
+          <span id="location">PQR</span>
+        </div>
+        <div class="section-elements">
+          <h6>Timezone</h6>
+          <span id="timezone">5:00 UTC</span>
+        </div>
+        <div class="section-elements">
+          <h6>ISP</h6>
+          <span id="isp">XYZ / PQR</span>
+        </div>
+      </section>
+    </main>
+    <div id="map"></div>
+    <!-- add offset value dynamically using the API -->
+    <script src="app.js"></script>
+  </body>
+</html>
