@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- GitHub URL: [](https://github.com/ashwin-acharya01/IP-Address-Tracker)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- GitHub URL: [IP Address Tracker](https://github.com/ashwin-acharya01/IP-Address-Tracker)
+- Live Site URL: [Live URL](https://fmipaddresstracker.netlify.app)
 
 ## My process
 
@@ -63,6 +63,6 @@ Used LeafletJS for the first time and it was a lot of fun. Still have to learn a
 ## Author
 
 - Frontend Mentor - [@Ashwin Acharya](https://www.frontendmentor.io/profile/ashwin-acharya01)
-- Twitter - [@Ashwin Acharya](https://www.twitter.com/yourusername)
+- Twitter - [@Ashwin Acharya](https://www.twitter.com/AshwinA61109683)
 
 
